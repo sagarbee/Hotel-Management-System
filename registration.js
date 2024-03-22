@@ -44,4 +44,5 @@ function clearField(un, pass, add, gd, brnch, yop) {
 
 function saveData(userData) {
     localStorage.setItem("userData", JSON.stringify(userData));
+    open("login.html");
 }
